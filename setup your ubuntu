@@ -1,6 +1,7 @@
 -------------------install the following packages--------------------
-------------dont use your infrastrucutre or any proxy on your terminal or computer use proxy free network ----------------- 
------------install pip for python to add additional functionalities ---------------
+1)------------dont use your infrastrucutre or any proxy on your terminal or computer use proxy free network ----------------- 
+2)-----------install pip for python to add additional functionalities ---------------
+3)------------use "python3" command instead of "python"------------------------------------------------
 sudo apt-get install python-pip
 
 ----------You need to give permissions to some folders-----------------
@@ -8,8 +9,13 @@ sudo chown -R $USER /usr/local/lib/python2.7/
 sudo chown -R $USER /usr/local/lib/python3.5/
 sudo chown -R $USER /usr/local/bin/
 
-sudo apt-get install python-pyperclip
-sudo apt-get install python-requests
+sudo apt-get install python3-pyperclip
+sudo apt-get install python3-requests
+
+-------------------run the python script as follows-------------------------
+python3 <python_script_name.py>
+
+
 
 ALTERNATIVE UNSOLVED
 ------------dont use your infrastrucutre or any proxy on your terminal or computer use proxy free network ----------------- 
