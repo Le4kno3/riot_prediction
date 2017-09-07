@@ -1,0 +1,18 @@
+UNSOLVED
+-----------install pip for python to add additional functionalities ---------------
+sudo apt-get install python-pip
+
+----------You need to give permissions to some folders-----------------
+sudo chown -R $USER /usr/local/lib/python2.7/
+sudo chown -R $USER /usr/local/lib/python3.5/
+sudo chown -R $USER /usr/local/bin/
+
+----------install pyperclip for using clipboard data-------------------
+pip install --user pyperclip
+Note: please use this method for installling any pip package "pip install --user <package name>" because other may lead to securitiy problems.
+
+---------check to conform this installation---------------------------
+pip freeze | grep pyperclip
+Note: you should able to see pyperclip as a result
+
+
